@@ -32,7 +32,7 @@ wget -c "$URL_GOOGLE_CHROME"       -P "$DIRETORIO_DOWNLOADS"
 mkdir "$DIRETORIO_STARSPACE"
 wget "$URL_STARSPACE"              -P "$DIRETORIO_STARSPACE"
 tar -zxvf $DIRETORIO_STARSPACE/*.gz
-sudo mv $DIRETORIO_STARSPACE/boost_1_77_0 /usr/bin
+sudo mv $DIRETORIO_STARSPACE/boost_1_77_0 /usr/local/bin
 git clone https://github.com/facebookresearch/Starspace.git
 cd Starspace
 make
